@@ -1,0 +1,106 @@
+// Nav Color
+$primary-color: #0d1d2c;
+// Div Color
+$secondary-color: #d4d8e2;
+// Outline
+$tertiary-color: #ffffff;
+// Text 1
+$fourth-color: white;
+// Text 2
+$fifth-color: #080738;
+// Alt Yellow
+$alt-yellow: #FFF7D9;
+// Alt Blue
+$alt-blue: #6E90B5;
+
+$home-image: url(../img/home.jpg);
+$background-opacity: 0.9;
+
+.hide {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  line-height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+p {
+  font-size: 1.1rem; 
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@mixin easeOutBG() {
+  background-color: $tertiary-color;
+  border: 2px solid $primary-color;
+  color: $primary-color;
+}
+
+@mixin easeOutFT() {
+  transition: all .2s ease-in-out;
+  color: $tertiary-color; 
+}
+
+@mixin easeOutNAV() {
+  transition: all .2s ease-in-out;
+  color: $alt-yellow;
+}
+
+@mixin button() {
+  margin-right: .5rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid $tertiary-color;
+  background: $primary-color;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all .2s ease-in-out; 
+
+
+  a {
+    color: $fourth-color;
+  }
+  
+  &:hover {
+    cursor: pointer;
+    @include easeOutBG();
+  }
+}
+

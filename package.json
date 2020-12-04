@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gittyang/Portfolio-WP.git"
+  },
+  "author": "Tou Toua Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gittyang/Portfolio-WP/issues"
+  },
+  "homepage": "https://github.com/gittyang/Portfolio-WP#readme",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^5.0.0"
+  }
+}
