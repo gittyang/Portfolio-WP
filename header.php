@@ -8,6 +8,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/main.css' ?>">
   <?php wp_head(); ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJZLDT06HC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SJZLDT06HC');
+  </script>
   <title>Tou Toua Yang</title>
 </head>
  

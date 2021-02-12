@@ -37,7 +37,7 @@
           <p>Mutual respect + collaboration = an efficient and healthy team.</p>
           <p>Learn, share, teach. That's how we become better - individually & collectively.</p>
           <h3>Personal Interests</h3>
-          <p>Exploring the outdoors, Netflix (TWD, Black Mirror, etc.), Catan, COD Warzone, volleyball, disc golf, etc.</p>     
+          <p>Exploring the outdoors, Netflix (TWD, Black Mirror, etc.), Catan, volleyball, disc golf, etc.</p>     
         </div>  
       </div>
     </section> <!-- End of About Section -->
@@ -66,7 +66,7 @@
                 <p>Javascript</p>
               </div>
               <div class="div st-items">
-                <img src="img/jquery.png" id="jqueryP" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/img/jquery.png' ?>" id="jqueryP" alt="">
                 <p>Jquery</p>
               </div>
               <div class="div st-items">
@@ -89,7 +89,7 @@
                 <p>NodeJs</p>
               </div>
               <div class="div st-items">
-                <img src="img/json.png" id="jsonP" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/img/json.png' ?>" id="jsonP" alt="">
                 <p>JSON</p>
               </div>
               <div class="div st-items">
@@ -155,16 +155,16 @@
             <div class="project-body">
               <div class="pb-wrapper">
                 <div class="pb-top">
-                  <h2>GymFitness</h2>
+                  <h2>Gym Champs</h2>
                 </div>
                 <div class="pb-bottom">
-                  <p>A fully dynamic website built on WordPress CMS.</p>
+                  <p>A fully dynamic website built with WordPress.</p>
                 </div>
                 <div class="pb-button">
-                  <a href="https://dev-gymfitness.pantheonsite.io/" target="_blank">
+                  <a href="https://dev-gym-champs.pantheonsite.io/" target="_blank">
                     View Website
                   </a>
-                  <a href="https://github.com/gittyang/Gym-WordPress-Theme" target="_blank">
+                  <a href="https://github.com/gittyang/Gym-Champs" target="_blank">
                     View Github
                   </a>
                 </div>
@@ -187,7 +187,7 @@
                   A website built for a local small business.</p>
                 </div>
                 <div class="pb-button">
-                    <a href="https://fangtasticbrows.netlify.com" target="_blank">
+                    <a href="https://fangtasticbrows.netlify.app" target="_blank">
                       View Website
                     </a>
                     <a href="https://github.com/gittyang/Fangtastic-Brows" target="_blank">
@@ -216,7 +216,7 @@
                   Simple landing page featuring the Toyota 4Runner.</p>
                 </div>
                 <div class="pb-button">
-                    <a href="https://4runner.netlify.com" target="_blank">
+                    <a href="https://4runner.netlify.app" target="_blank">
                       View Website
                     </a> 
                     <a href="https://github.com/gittyang/Toyota-4runner" target="_blank">
@@ -242,20 +242,21 @@
           </h2>
 
           <p>
-            Please feel free to connect with me on LinkedIn:
+            Please feel free to contact me via email:
           </p>
-          <a href="https://www.linkedin.com/in/toutouayang/" target="_blank">
-            <b>linkedin.com/toutouayang</b>
+          <a href="mailto:ttyang251@gmail.com" target="_blank">
+            <b>ttyang251@gmail.com</b>
             <i class="fas fa-external-link-alt"></i>
           </a>
+
 
           <br>
           <br>
           <p>
-            You can also contact me at:
+            You can also contact me through LinkedIn:
           </p>
-          <a href="mailto:ttyang251@gmail.com" target="_blank">
-            <b>ttyang251@gmail.com</b>
+          <a href="https://www.linkedin.com/in/toutouayang/" target="_blank">
+            <b>linkedin.com/toutouayang</b>
             <i class="fas fa-external-link-alt"></i>
           </a>
 
@@ -269,7 +270,7 @@
         </div>
 
         <div class="contact-svg">
-          <img src="<?php echo get_template_directory_uri() . 'img/contact.svg' ?>" alt="">
+          <img src="<?php echo get_template_directory_uri() . '/img/contact.svg' ?>" alt="">
         </div>
       </div>
 
